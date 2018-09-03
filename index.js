@@ -24,10 +24,15 @@ return "The line is currently empty."
 var i=0
 var newArray = []
 while (i<katzDeliLine.length){
+
     newArray.push(i+1 +". "+ katzDeliLine[i])
     i++
 }
 return "The line is currently: " + newArray.join(", ")
 
+    katzDeliLine[i]=katzDeliLine[i] +". "+i
+    i++
 }
+return "The line is currently: " + katzDeliLine
+
 }
